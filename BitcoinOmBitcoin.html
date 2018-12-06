@@ -6,7 +6,7 @@
 </head>
 <style>
     body{
-        padding: 0px;
+        padding: 0;
         margin: 0 auto;
         background-color: #151515;
         font-size: 16px;
@@ -26,7 +26,7 @@
         padding: 10px 20px;
         border: solid black 1px;
         display: inline-block;
-        margin: 13px 0px 10px 3px;
+        margin: 13px 0 10px 3px;
         background-color: #ff8321;
         font-family: Verdana;
     }
@@ -72,6 +72,18 @@
         font-family: Verdana;
     }
 
+    .tekstLinje p{
+        margin: 0 auto;
+        text-align: center;
+        font-family: Verdana;
+        font-size: x-large;
+        height: auto;
+        padding: 40px;
+        width: 700px;
+        background-color: #151515;
+        color: white;
+    }
+
     .parallax{
         /*lager en parallaxe effekt*/
         min-height: 500px;
@@ -81,20 +93,28 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .parallax2{
+        min-height: 400px;
+        background-image: url(Bilder/Bitcoin.8.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    .parallax3{
         background-color: white;
         height: 1px;
     }
-    .tekstLinje p{
-        margin: 0 auto;
-        text-align: center;
-        font-family: Verdana;
-        font-size: x-large;
-        height: 450px;
-        width: 700px;
+
+    .tekstLinje {
+        height: 250px;
+        width: 100%;
         background-color: #151515;
         color: white;
+
     }
+
 
 
 
@@ -113,7 +133,7 @@
 <main>
 
     <div class="tekstLinje">
-        <h1>Regler for Bitcoin</h1>
+        <h1>Om Bitcoin</h1>
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum similique sunt voluptatem. Commodi cupiditate debitis delectus eos id incidunt, iste libero molestias optio quia quibusdam tempora, temporibus voluptates. Inventore, rerum?</p>
     </div>
     <div class="parallax"></div>
@@ -132,6 +152,12 @@
         </p>
     </div>
     <div class="parallax2"></div>
+    <div class="tekstLinje">
+        <h1>Verdi</h1>
+        <p>Verdien til Bitcoin fastsettes på lik linje med andre varer, som gull eller norske kroner. Prisen vil avhenge av etterspørsel, tilgjengelighet og verdensmarkedet. Så lenge det finnes en etterspørsel etter bitcoins vil bitcoins altså ha en verdi. Bitcoins kan ikke skrives ut og beløpet er svært begrenset - bare 21 millioner Bitcoins kan noensinne opprettes.</p>
+    </div>
+
+    <div class="parallax3"></div>
 
 </main>
 
