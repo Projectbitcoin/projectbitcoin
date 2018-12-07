@@ -12,14 +12,13 @@
     }
 
     header{
-        display: flex;
-        flex-direction: row;
         background-color: #d16900;
         position: fixed;
         width: 100vw;
     }
 
     header a{
+        display: block;
         text-decoration: none;
         color: rgb(00, 00, 00);
         font-family: Verdana;
@@ -32,6 +31,7 @@
     }
 
     header nav img{
+        display: block;
         width: 55px;
         height: 55px;
         float: left;
@@ -102,19 +102,24 @@
         max-width: 1000px;
         margin: 0 auto;
     }
-
+    @media (max-width: 700px) {
+        header{
+            max-height: 100px;
+            width: 700px;
+        }
+    }
 
 
 </style>
 <body>
 <header>
     <nav>
+        <img src="Bilder/BitcoinLogo2redigert2.png" alt="">
         <a href="BitcoinNettside.html">Hjem</a>
         <a href="BitcoinOmBitcoin.html">Om Bitcoin</a>
         <a href="BitcoinRegler.html">Regler</a>
         <a href="BitcoinFordeler.html">Fordeler</a>
         <a href="BitcoinUlemper.html">Ulemper</a>
-        <img src="Bilder/BitcoinLogo2redigert2.png" alt="">
     </nav>
 </header>
 
