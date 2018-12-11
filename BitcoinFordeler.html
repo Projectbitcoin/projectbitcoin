@@ -96,21 +96,60 @@
         background-color: #151515;
         color: white;
     }
+    .tekstLinje2 p{
+        margin: 0 auto;
+        text-align: center;
+        font-family: Verdana;
+        font-size: x-large;
+        height: auto;
+        padding: 40px;
+        width: 700px;
+        background-color: #151515;
+        color: white;
+    }
+
 
     ul li {
         margin: 0 20vh;
+    }
+    @media (max-width: 700px) {
+        header{
+            position: sticky;
+        }
+        header nav{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+        }
+        .tekstLinje{
+            height: 450px;
+            margin: 0 auto;
+        }
+        .tekstLinje p{
+            font-size: 1.3em;
+            width: 380px;
+        }
+        .tekstLinje2 {
+            height: 610px;
+            margin: 0 auto;
+        }
+        .tekstLinje2 p{
+            font-size: 1.3em;
+            width: 380px;
+        }
     }
 
 </style>
 <body>
 <header>
     <nav>
+        <img src="Bilder/BitcoinLogo2redigert.png" alt="">
         <a href="index.html">Hjem</a>
         <a href="BitcoinOmBitcoin.html">Om Bitcoin</a>
         <a href="BitcoinRegler.html">Regler</a>
         <a href="BitcoinFordeler.html">Fordeler</a>
         <a href="BitcoinUlemper.html">Ulemper</a>
-        <img src="Bilder/BitcoinLogo2redigert.png" alt="">
+
     </nav>
 </header>
 <main>
@@ -120,7 +159,7 @@
         <p> Mange tror at Bitcoin kommer til å stå i sentrum av verdensøkonomien om noen år. Med den positive veksten Bitcoin har hatt de siste årene kan dette fort bli en realitet. Men er dette egentlig så lurt? Dette er et veldig omdiskutert tema med flere argumenter både for og imot. Nå skal vi først se på argumenete som tilsier at Bitcoin burde være med inn i framtiden.</p>
     </div>
     <div class="parallax"></div>
-    <div class="tekstLinje">
+    <div class="tekstLinje2">
         <h1>Dette er noen av fordelene:</h1>
 <ul>
         <li>Rask og enkel betaling uten mellomledd.</li>

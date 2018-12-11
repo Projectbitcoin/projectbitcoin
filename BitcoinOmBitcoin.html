@@ -123,18 +123,65 @@
         background-color: #151515;
         color: white;
     }
+    .tekstLinje2 {
+        height: auto;
+        padding: 40px;
+        width: 100%;
+        background-color: #151515;
+        color: white;
+
+    }
+
+    .tekstLinje2 p{
+        margin: 0 auto;
+        text-align: center;
+        font-family: Verdana;
+        font-size: x-large;
+        height: auto;
+        padding: 40px;
+        width: 700px;
+        background-color: #151515;
+        color: white;
+    }
+    @media (max-width: 700px) {
+        header{
+            position: sticky;
+        }
+        header nav{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+        }
+        .tekstLinje{
+            height: 450px;
+            margin: 0 auto;
+        }
+        .tekstLinje p{
+            font-size: 1.3em;
+            width: 340px;
+        }
+        .tekstLinje2{
+            height: 1340px;
+            margin: 0 auto;
+        }
+        .tekstLinje2 p{
+            font-size: 1.3em;
+            width: 350px;
+        }
+    }
 
 
 </style>
 <body>
 <header>
     <nav>
+        <img src="Bilder/BitcoinLogo2redigert.png" alt="">
         <a href="index.html">Hjem</a>
         <a href="BitcoinOmBitcoin.html">Om Bitcoin</a>
         <a href="BitcoinRegler.html">Regler</a>
         <a href="BitcoinFordeler.html">Fordeler</a>
         <a href="BitcoinUlemper.html">Ulemper</a>
-        <img src="Bilder/BitcoinLogo2redigert.png" alt="">
+
     </nav>
 </header>
 <main>
@@ -144,7 +191,7 @@
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum similique sunt voluptatem. Commodi cupiditate debitis delectus eos id incidunt, iste libero molestias optio quia quibusdam tempora, temporibus voluptates. Inventore, rerum?</p>
     </div>
     <div class="parallax"></div>
-    <div class="tekstLinje">
+    <div class="tekstLinje2">
         <h1>Få tak i Bitcoin:</h1>
         <p>Du kan enten kjøpe bitcoin for tradisjonelle penger eller du kan bruke en metode som kalles for mining.</p>
 
